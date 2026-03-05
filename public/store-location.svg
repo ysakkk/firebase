@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280">
+  <!-- Map pin shape -->
+  <path d="M 100 20 C 75 20 55 40 55 70 C 55 110 100 240 100 240 C 100 240 145 110 145 70 C 145 40 125 20 100 20 Z" fill="#FF6B35" stroke="#FF3D00" stroke-width="2"/>
+
+  <!-- Building inside pin -->
+  <g transform="translate(100, 70)">
+    <!-- Store building -->
+    <rect x="-20" y="-15" width="40" height="35" rx="2" fill="#FFFFFF" stroke="#333" stroke-width="1.5"/>
+
+    <!-- Roof -->
+    <polygon points="-25,-15 0,-30 25,-15" fill="#8B4513" stroke="#654321" stroke-width="1.5"/>
+
+    <!-- Door -->
+    <rect x="-8" y="8" width="16" height="20" rx="2" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+    <circle cx="-2" cy="18" r="1.5" fill="#FFD700"/>
+
+    <!-- Windows -->
+    <rect x="-18" y="-5" width="8" height="8" fill="#87CEEB" stroke="#333" stroke-width="0.5"/>
+    <rect x="10" y="-5" width="8" height="8" fill="#87CEEB" stroke="#333" stroke-width="0.5"/>
+
+    <!-- Flag on roof -->
+    <line x1="0" y1="-30" x2="0" y2="-45" stroke="#333" stroke-width="2"/>
+    <polygon points="0,-45 12,-40 0,-35" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  </g>
+
+  <!-- Location dot -->
+  <circle cx="100" cy="95" r="8" fill="#FFFFFF" stroke="#FF3D00" stroke-width="2"/>
+  <circle cx="100" cy="95" r="4" fill="#FF6B35"/>
+
+  <!-- Text below -->
+  <text x="100" y="260" font-size="20" font-weight="bold" fill="#FF6B35" text-anchor="middle" font-family="Arial">対象店舗</text>
+</svg>
